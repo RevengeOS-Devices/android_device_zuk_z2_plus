@@ -20,14 +20,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z2_plus device
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
+# Inherit some common Revenge stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 DEVICE_MAINTAINERS="Rasenkai (@rasenkai)"
 
+# Inherit some common AOSP stuff.
+IS_PHONE := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xenonhd_z2_plus
+PRODUCT_NAME := revengeos_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
 PRODUCT_MODEL := Z2 Plus

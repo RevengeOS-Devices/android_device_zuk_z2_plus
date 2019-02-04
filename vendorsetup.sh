@@ -1,2 +1,2 @@
-add_lunch_combo xenonhd_z2_plus-userdebug
-add_lunch_combo xenonhd_z2_plus-eng
+add_lunch_combo revengeos_z2_plus-userdebug
+add_lunch_combo revengeos_z2_plus-eng

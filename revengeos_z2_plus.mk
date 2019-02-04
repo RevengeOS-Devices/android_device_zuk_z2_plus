@@ -22,6 +22,7 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 
 # Inherit some common Revenge stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/revengeos/config/gsm.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 DEVICE_MAINTAINERS="Rasenkai (@rasenkai)"

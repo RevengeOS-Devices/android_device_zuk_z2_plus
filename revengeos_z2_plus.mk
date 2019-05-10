@@ -31,6 +31,7 @@ DEVICE_MAINTAINERS="Rasenkai (@rasenkai)"
 IS_PHONE := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := revengeos_z2_plus
